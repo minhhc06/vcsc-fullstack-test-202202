@@ -1,0 +1,36 @@
+.my-dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.my-dropdown:hover {
+  cursor: pointer;
+}
+
+.reveal-drop-down-menu_EMFQP {
+  display: block !important;
+}
+
+.my-dropdown .drop-down-menu_EMFQP {
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  display: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.ul-dropdown {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 10px 5px 20px #f1efef, -10px -5px 20px #f1efef;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 300px;
+
+  .inActive {
+    color: #c7c4ca;
+  }
+}
